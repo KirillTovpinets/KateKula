@@ -86,14 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/js/index.js":
+/*!*************************!*\
+  !*** ./src/js/index.js ***!
+  \*************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("var scene = document.getElementById('scene');\r\nvar parallaxInstance = new Parallax(scene);\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
@@ -109,13 +109,13 @@ eval("module.exports = __webpack_require__.p + \"styles/style.css\";\n\n//# sour
 /***/ }),
 
 /***/ 0:
-/*!****************************************************!*\
-  !*** multi ./src/index.js ./src/styles/style.scss ***!
-  \****************************************************/
+/*!*******************************************************!*\
+  !*** multi ./src/js/index.js ./src/styles/style.scss ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./src/index.js */\"./src/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/styles/style.scss */\"./src/styles/style.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js_./src/styles/style.scss?");
+eval("__webpack_require__(/*! ./src/js/index.js */\"./src/js/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/styles/style.scss */\"./src/styles/style.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/js/index.js_./src/styles/style.scss?");
 
 /***/ })
 

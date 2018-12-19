@@ -4,3 +4,52 @@
 body, html {
   padding: 0;
   margin: 0; }
+
+.section {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 140px 0px; }
+  .section .section-title {
+    font-size: 35px;
+    color: #333; }
+  .section img {
+    width: 100%; }
+  .section .vertical-text {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    font-weight: bold;
+    letter-spacing: .1em;
+    margin-right: 20px;
+    margin-top: 0;
+    text-align: right; }
+  .section .description-container .description .title {
+    color: #48d9b3; }
+  .section .description-container .description p {
+    color: #666; }
+  .section .row {
+    margin-bottom: 50px; }
+
+header {
+  background: url("http://placehold.it/1700x1000/abcdef");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+  header:before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  header .navbar {
+    padding: 50px 0px; }
+    header .navbar .navbar-brand {
+      color: #fff; }
+    header .navbar .navbar-nav .nav-item .nav-link {
+      padding: .5rem 1.5rem;
+      color: #fff; }
+    header .navbar .search-btn {
+      background: none;
+      border: none;
+      color: #fff; }

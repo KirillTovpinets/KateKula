@@ -1,6 +1,6 @@
 const path = require('path');
 module.exports = {
-    entry: ['./src/index.js', './src/styles/style.scss'],
+    entry: ['./src/js/index.js', './src/styles/style.scss'],
     mode: "development",
     module: {
         rules: [
